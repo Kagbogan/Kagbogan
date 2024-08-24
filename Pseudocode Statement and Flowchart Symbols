@@ -1,0 +1,85 @@
+start
+  // Input the dimensions of the rectangle
+  input length
+  input width
+
+  // Calculate the area of the rectangle
+  area = length * width
+
+  // Output the area
+  output area
+stop
+
+
+start
+  // Input the temperature in Celsius
+  input celsius
+
+  // Convert Celsius to Fahrenheit
+  fahrenheit = (celsius * 9/5) + 32
+
+  // Output the temperature in Fahrenheit
+  output fahrenheit
+stop
+
+
+
+
+start
+  // Input the number to be checked
+  input number
+
+  // Check if the number is even or odd
+  IF number MOD 2 = 0 THEN
+    output "The number is even"
+  ELSE
+    output "The number is odd"
+  END IF
+stop
+
+
+// exercide 2//
+
+
+start
+  // Input the total rent for the month
+  input totalRent
+
+  // Number of days in the month
+  daysInMonth = 30
+
+  // Calculate the daily cost of rent
+  dailyCost = totalRent / daysInMonth
+
+  // Output the daily cost of rent
+  output dailyCost
+stop
+
+
+// exercice 3//
+
+
+start
+  // Input the monthly pay
+  input monthlyPay
+
+  // Input the amount for rent
+  input rent
+
+  // Input the amount for utilities
+  input utilities
+
+  // Input the amount for grocery bills
+  input groceries
+
+  // Calculate the total bills
+  totalBills = rent + utilities + groceries
+
+  // Calculate the discretionary spending amount
+  discretionarySpending = monthlyPay - totalBills
+
+  // Output the monthly pay, total bills, and discretionary spending amount
+  output "Monthly Pay:", monthlyPay
+  output "Total Bills:", totalBills
+  output "Discretionary Spending:", discretionarySpending
+stop
